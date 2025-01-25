@@ -38,12 +38,20 @@ public class Main {
     System.out.println("float: " + myFloat);
     System.out.println("double: " + myDouble);
 
+    //CARACTERES PODEM SER DEFINIDOS POR char e String
+    //CHAR: UM CARACTERE DE 16 BITS E CODIGOS DA TABELA ASCII
+    //STRING: UMA SEQUENCIA DE CARACTERES, QUE Pode CONTENER ESPACOS EM BRANCO, NUMEROS, CARACTERES ESPECIAIS
+    //EXEMPLOS: 'a', "Gabriel Gameleira dos Santos", 10, 'A', '1', '!', 'é', '\t', '\n'...
+    //OBS: CHAR PODE REPRESENTAR CARACTERES UNICODE
+    //      STRING PODE REPRESENTAR TEXTOS COM ESPACOS EM BRANCO, NUMEROS, CARACTERES ESPECIAIS
+    //      OBS: STRING É UM TIPO DE VARIAVEIS POR REFERENCIA, OU seja, ELE É UM CONTEINER DE CARACTERES
 
-
-    char myChar = 'a';
-    String myString = "Gabriel Gameleira dos Santos";
+    char myChar = 'a'; //PARA O TIPO char ASPAS SIMPLES
+    char myChar1 = 33;
+    String myString = "Gabriel Gameleira dos Santos"; //PARA O TIPO String ASPAS DUPLAS
 
     System.out.println("char: " + myChar);
+    System.out.println("char1 "+  myChar1);
     System.out.println("String: " + myString);
 
     //VALORES BOOLEANOS REPRESENTAM SIM OU NAO / VERDADEIRO OU FALSO / 0 OU 1
