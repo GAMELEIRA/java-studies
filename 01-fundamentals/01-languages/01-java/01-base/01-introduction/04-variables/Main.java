@@ -16,11 +16,23 @@ public class Main {
     otherNum = 30;
     System.out.println(otherNum);
 
-
     //PARA DEFINIR UMA VARIAVEL CONSTANTE USO A PALAVRA-CHAVE final ANTES DO TIPO DA VARIAVEL
     //EXEMPLO
     final double PI = 3.14;
     System.out.println(PI);
+
+    //PARA DECLARAR MULTIPLAS VARIAVEIS EM UM UNICA LINHA
+    //SEPARE CADA IDENTIFICADOR POR VIRGULA
+    int a, b, c;
+    a = 10;
+    b = 20;
+    c = 30;
+    System.out.println(a + " " + b + " " + c);
+
+    //ATRIBUICAO MULTIPLA
+    int d, e, f;
+    d = e = f = 20;
+    System.out.println(d + " " + e + " " + f);
 
   }
 }
