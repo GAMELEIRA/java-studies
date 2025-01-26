@@ -12,9 +12,10 @@ public class Main {
     //É POSSIVEL ENCONTRAR O TAMANHO DE UMA STRING USANDO O METODO length
     System.out.println("Tamanho da string: " + name.length());
   
-    //É POSSIVEL CONCATENAR DUAS STRINGS USANDO O OPERADOR +
+    //É POSSIVEL CONCATENAR DUAS STRINGS USANDO O OPERADOR + OU O METODO concat
     String fullName = name + " " + middleName;
     System.out.println("Nome completo: " + fullName);
+    System.out.println("Nome completo: " + name.concat(" ").concat(middleName));
 
     //É POSSIVEL USAR O MÉTODO toUpperCase() PARA CONVERTER TODAS AS LETRAS EM MAISCULAS
     String upperCaseName = name.toUpperCase();
