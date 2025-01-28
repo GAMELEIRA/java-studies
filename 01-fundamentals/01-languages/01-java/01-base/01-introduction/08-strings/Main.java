@@ -60,5 +60,29 @@ public class Main {
     boolean areEqual = fullName.equals("Gabriel Gameleira");
     System.out.println("Full name: "+ fullName + ". Strings iguais: " + areEqual);
 
+    //PARA QUE CARACTERES ESPECIAIS SEJAM TRANSFORMADOS EM CARACTERES DE STRING USE A BARRA INVERTIDA \
+    System.out.println("\"\"\"");
+    System.out.println("\'\'\'");
+    System.out.println("\\");
+
+    //PARA PULAR UMA LINHA USE \n
+    System.out.println("Corinthians\n");
+
+    //PARA VOLTAR O CURSOR PARA O COMECO DA LINHA USE \r
+    System.out.println("Corinthians\r");
+
+    //PARA DAR UM TAB USER \t
+    System.out.println("Corinthians\t");
+
+    //PARA DAR UM BACKSPACE USE \b
+    System.out.println("Corinthians\b");
+
+    //PARA DAR UM FORMATAÇÃO DE TEXTO USANDO format()
+    String formattedString = String.format("Nome: %s, Idade: %d", name, 25);
+    System.out.println("Formatted string: " + formattedString);
+
+    //PARA DAR UM FORMATACAO DE TEXTO USANDO printf()
+    System.out.printf("Nome: %s, Idade: %d%n", name, 25);
+
   }
 }
