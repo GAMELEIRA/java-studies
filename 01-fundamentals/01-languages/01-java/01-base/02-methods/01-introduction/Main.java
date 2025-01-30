@@ -1,0 +1,18 @@
+public class Main {
+  public static void main(String[] args) {
+    //UM METODO É UM BLOCO DE CODIGO QUE É EXECUTADO QUANDO É CHAMADO
+    //É POSSIVEL PASSAR DADOS/ARGUMENTOS PARA ALIMENTAR PARAMETROS
+    //METODOS SAO USADOS PARA EXECUTAR ACOES
+    //COM METODOS É POSSIVEL REUTILIZAR CODIGO
+    sayHello();
+  }  
+
+  //ASSINATURA DO METODO DEVE SER DEFINIDO POR:
+  //ESCOPO/ENCAPSULAMENTO
+  //TIPO DO RETORNO (SE HOUVER)
+  //NOME DO METODO
+  //PARAMETROS (SE HOUVER)
+  public static void sayHello() {
+    System.out.println("Hello Gameleira!");
+  }
+}
