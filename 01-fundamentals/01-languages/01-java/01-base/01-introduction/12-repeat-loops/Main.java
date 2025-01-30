@@ -32,5 +32,23 @@ public class Main {
         for (int num : array) {
             System.out.println("Numero: " + num);
         }
+
+        //break E continue PODEM SER UTILIZADOS PARA INTERROMPER A EXECUÇÃO DE UM LOOP
+
+        //break ENCERRA O LOOP COMPLETAMENTE. OU SEJA, NAO EXECUTA MAIS O LACO DE REPETICAO E NAO EXECUTAO ESCOPO DE BLOCO
+        for (int l = 0; l < 10; l++) {
+            if (l == 5) {
+                break;
+            }
+            System.out.println("Numero: " + l);
+        }
+
+        //continue PULA PARA A PRÓXIMA ITERAÇÃO DO LOOP. OU SEJA, NAO EXECUTA O CODIGO DA PRÓXIMA LINHA E NAO EXECUTA ESCOPO DE BLOCO. POREM CONTINUA EXECUTANDO PARA O LACO DE REPETICAO
+        for (int m = 0; m < 10; m++) {
+            if (m == 5) {
+                continue;
+            }
+            System.out.println("Numero: " + m);
+        }
     }
 }
