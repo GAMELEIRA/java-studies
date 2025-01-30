@@ -26,5 +26,11 @@ public class Main {
             System.out.println("Numero aleatorio: " + k);
         } while (k != 5);
         System.out.println("Numero aleatorio encontrado: " + k);
+
+        //for each É UM RECURSO UTILIZADO PARA SIMPLIFICAR O for PARA PERCORRER ARRAYS
+        int[] array = {1, 2, 3, 4, 5};
+        for (int num : array) {
+            System.out.println("Numero: " + num);
+        }
     }
 }
