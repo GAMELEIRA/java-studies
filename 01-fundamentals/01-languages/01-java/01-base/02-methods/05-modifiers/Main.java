@@ -5,7 +5,7 @@ public class Main {
 
   //public PODE SER ACESSADO POR QUALQUER CLASSE
   public static void main(String[] args) {
-    
+    System.out.println("Qualquer um acessa");
   }
 
   //protected PODE SER ACESSADO POR QUALQUER CLASSE QUE ESTA NO MESMO PACOTE OU SUBCLASSE
