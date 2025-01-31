@@ -11,6 +11,7 @@ public class Main {
       System.out.println("Pilha:" + num);
       return num + sum(num - 10);
     } else {
+      //TODA FUNCAO RECURSIVA DEVE CONTER UMA CONDICAO DE PARADA
       return 0;
     }
   }
