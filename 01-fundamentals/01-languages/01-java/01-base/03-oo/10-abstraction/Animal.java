@@ -1,0 +1,10 @@
+//CLASSE ABSTRATA É RESTRITA QUE NAO PODE SER USADA PARA CRIAR OBJETOS
+public abstract class Animal {
+  //IMPLEMENTA E ALTERA A FUNCAO
+  public void animalSound() {
+    System.out.println("RRRRRRRRRRRRR");
+  }
+
+  //ABSTRACT METHOD É UM METODO QUE NAO TEM IMPLEMENTACAO, E DEVE SER IMPLEMENTADO EM CADA SUBCLASSE
+  public abstract void eat();
+}
