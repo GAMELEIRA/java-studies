@@ -1,3 +1,5 @@
+import java.util.ArrayList; //PARA IMPORTAR ARRAYS DINAMICOS
+
 public class Main {
   public static void main(String[] args) {
     //MATRIZES SAO USADAS PARA ARMAZENAR VARIOS VALORES EM UMA UNICA VARIAVEL
@@ -49,6 +51,41 @@ public class Main {
 
     //ACESSANDO VALORES
     System.out.println("Element at (1, 2, 1): " + cube[1][2][1]);
+
+    //O ArrayList É UMA CLASSE QUE PODE SER ENCONTRADO NO PACOTE java.util
+   
+    //UM ArrayList É DINAMICO, OU SEJA, OS ITENS PODEM SER ADICIONADOS E REMOVIDOS A QUALQUER MOMENTO 
+    //TODA TIPAGEM DO ArrayList É UMA CLASSE. ISSO PORQUE OS ITENS DO ARRAY SAO NA VERDADE OBJETOS. OU SEJA, UTILIZAR String, Integer (int), Double (double), Boolean (boolean), Character (char) etc. 
+    ArrayList<String> listOneCars = new ArrayList<String>();
+
+    //ADICIONANDO ELEMENTOS
+    listOneCars.add("Volvo");
+    listOneCars.add("BMW");
+    listOneCars.add("Ford");
+    listOneCars.add(0, "Ferrari"); //ADICIONANDO COM UM INDICE
+
+    System.out.println("Lista de carros: " + listOneCars);
+
+    //BUSCANDO UM ITEM 
+    System.out.println("Primeiro carro: " + listOneCars.get(0)); //INDICE DA POSICAO DO ARRAY
+
+    //ALTERANDO UM ITEM
+    listOneCars.set(0, "Toyota"); //INDICE DA POSICAO DO ARRAY, E O NOVO VALOR
+    System.out.println("Primeiro carro após alterar: " + listOneCars.get(0));
+
+    //REMOVENDO UM ITEM
+    listOneCars.remove(1); //INDICE DA POSICAO DO ARRAY
+    System.out.println("Lista de carros após remover o segundo carro: " + listOneCars);
+
+    //VERIFICANDO SE UM ITEM ESTA NA LISTA
+    System.out.println("BMW está na lista? " + listOneCars.contains("BMW"));
+
+    //VERIFICANDO O TAMANHO DA LISTA
+    System.out.println("Tamanho da lista: " + listOneCars.size());    
+  
+    //REMOVENDO TODOS OS ITENS DO ARRAY
+    listOneCars.clear();
+    System.out.println("Lista de carros após remover todos: " + listOneCars);
 
   }
 }
