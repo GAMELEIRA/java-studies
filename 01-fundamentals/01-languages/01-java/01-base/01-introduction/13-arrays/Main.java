@@ -1,4 +1,5 @@
 import java.util.ArrayList; //PARA IMPORTAR ARRAYS DINAMICOS
+import java.util.LinkedList; //PARA IMPORTAR ARRAYS DINAMICOS
 
 public class Main {
   public static void main(String[] args) {
@@ -54,6 +55,8 @@ public class Main {
 
     //O ArrayList É UMA CLASSE QUE PODE SER ENCONTRADO NO PACOTE java.util
    
+    //+++++++++++++++++++++++++++++++++++++++++++ ARRAYLIST +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+    
     //UM ArrayList É DINAMICO, OU SEJA, OS ITENS PODEM SER ADICIONADOS E REMOVIDOS A QUALQUER MOMENTO 
     //TODA TIPAGEM DO ArrayList É UMA CLASSE. ISSO PORQUE OS ITENS DO ARRAY SAO NA VERDADE OBJETOS. OU SEJA, UTILIZAR String, Integer (int), Double (double), Boolean (boolean), Character (char) etc. 
     ArrayList<String> listOneCars = new ArrayList<String>();
@@ -87,5 +90,58 @@ public class Main {
     listOneCars.clear();
     System.out.println("Lista de carros após remover todos: " + listOneCars);
 
+    //++++++++++++++++++++++++++++++++++++++++++++++++++ LinkedList ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+    //Uma LinkedList é UMA LISTA DINAMICA, OU SEJA, OS ITENS PODEM SER ADICIONADOS E REMOVIDOS A QUALQUER MOMENTO
+    //TODA TIPAGEM DO LinkedList É UMA CLASSE. ISSO PORQUE OS ITENS DO ARRAY SAO NA VERDADE OBJETOS. OU SEJA, UTILIZAR String, Integer (int), Double (double), Boolean (boolean), Character (char) etc. 
+    //LinkedList IMPLEMENTA A INTERFACE List, OU SEJA, OS METODOS PRESENTES EM  ArrayList
+    //O LinkedList FORNECE METODOS PARA REALIZAR OPERACOES DE FORMA MAIS EFICIENTE
+    LinkedList<String> listCars = new LinkedList<String>();
+    
+    //ADICIONANDO ELEMENTOS
+    listCars.add("Volvo");
+    listCars.add("BMW");
+    listCars.add("Ford");
+    listCars.addFirst("Ferrari"); //ADICIONANDO NO INICIO
+
+    System.out.println("Lista de carros: " + listCars);
+
+    //BUSCANDO UM ITEM 
+    System.out.println("Primeiro carro: " + listCars.get(0)); //INDICE DA POSICAO DO ARRAY
+
+    //ALTERANDO UM ITEM
+    listCars.set(0, "Toyota"); //INDICE DA POSICAO DO ARRAY, E O NOVO VALOR
+    System.out.println("Primeiro carro após alterar: " + listCars.get(0));
+
+    //REMOVENDO UM ITEM
+    listCars.remove(1); //INDICE DA POSICAO DO ARRAY
+    System.out.println("Lista de carros após remover o segundo carro: " + listCars);
+
+    //VERIFICANDO SE UM ITEM ESTA NA LISTA
+    System.out.println("BMW está na lista? " + listCars.contains("BMW"));
+
+    //VERIFICANDO O TAMANHO DA LISTA
+    System.out.println("Tamanho da lista: " + listCars.size());
+
+    //ADICIONA UM ITEM NO COMECO DA LISTA
+    listCars.addFirst("Honda");
+    System.out.println("Lista de carros após adicionar o primeiro carro: " + listCars);
+
+    //ADICIONA UM ITEM NO FINAL DA LISTA
+    listCars.addLast("Nissan");
+    System.out.println("Lista de carros após adicionar o ultimo carro: " + listCars);
+
+    //REMOVENDO UM ITEM DO COMECO DA LISTA
+    listCars.removeFirst();
+    System.out.println("Lista de carros após remover o primeiro carro: " + listCars);
+
+    //REMOVENDO UM ITEM DO FINAL DA LISTA
+    listCars.removeLast();
+    System.out.println("Lista de carros após remover o primeiro e o ultimo carro: " + listCars);
+
+    //REMOVENDO TODOS OS ITENS DO ARRAY
+    listCars.clear();
+    System.out.println("Lista de carros após remover todos: " + listCars);
+    
   }
 }
