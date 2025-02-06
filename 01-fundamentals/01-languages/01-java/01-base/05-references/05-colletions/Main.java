@@ -15,6 +15,8 @@ public class Main {
     // USAR sort PARA ORDENAR OS NUMEROS
     Collections.sort(myNumbers);
 
+    System.out.println("Lista crescente:");
+
     for (int i : myNumbers) {
       System.out.println(i);
     }
@@ -22,6 +24,7 @@ public class Main {
     // USAR Collections.reverseOrder() PARA ORDENAR EM ORDEM DECRESCENTE
     Collections.sort(myNumbers, Collections.reverseOrder());
 
+    System.out.println("Lista decrescente:");
     for (int i : myNumbers) {
       System.out.println(i);
     }
