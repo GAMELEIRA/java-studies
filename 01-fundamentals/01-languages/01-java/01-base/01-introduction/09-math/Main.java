@@ -2,7 +2,6 @@ public class Main {
   public static void main(String[] args) {
     //A CLASSE JAVA Math TEM METODOS QUE PERMITEM EXECUTAR TAREFAS MATEMATICAS
     
-
     //PARA ENCONTRAR O MAIOR VALOR ENTRE DOIS NUMEROS USAR max(x, y)
     int num1 = 5;
     int num2 = 8;
@@ -43,5 +42,9 @@ public class Main {
     //PARA GERAR UM NUMERO ALEATORIO ENTRE 1 E 100
     int num10 = (int) (Math.random() * 100) + 1;
     System.out.println("Um número aleatório entre 1 e 100 é: " + num10);
+  
+    //obs PARA GERAR O VALOR ABSOLUTO DE UM NUMERO, OU SEJA, O NUMERO POSITIVO
+    int num = -789;
+    System.out.println("O valor absoluto de " + num + " é: " + Math.abs(num));
   }
 }

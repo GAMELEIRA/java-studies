@@ -6,7 +6,8 @@ public class Main {
     Scanner scanner = new Scanner(System.in);
 
     System.out.print("Informe o seu nome: ");
-    String name = scanner.nextLine(); //PARA STRINGS
+    String name = scanner.nextLine(); //PARA STRINGS 
+    //PARA CASOS EM QUE O nextLine VEM DEPOIS DOS OUTROS next USAR UM nextLine EXTRA
 
     System.out.print("Informe sua idade: ");
     byte age = scanner.nextByte(); //PARA BYTES
