@@ -4,13 +4,12 @@ import java.util.Scanner;
 public class Main {
   public static final float PI = 3.14159f;
   public static void main(String[] args) {
-
     Locale.setDefault(Locale.US);
     
     double radius = requestRadius();
     double result = calculateArea(radius);
-    showResult(result);
 
+    showResult(result);
   }  
 
   public static double requestRadius() {

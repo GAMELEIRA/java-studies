@@ -40,6 +40,6 @@ public class Main {
   }
 
   public static void showResult(Integer result) {
-    System.out.printf("SOMA = %d", result);
+    System.out.printf("SOMA = %d%n", result);
   }
 }
