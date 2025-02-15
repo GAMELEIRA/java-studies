@@ -14,6 +14,7 @@ public class Main {
 
     System.out.println("Informe um numero inteiro: ");
     number = scanner.nextInt();
+    scanner.close();
 
     return number;
   }

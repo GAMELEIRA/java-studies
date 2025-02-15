@@ -23,6 +23,7 @@ public class Main {
 
     System.out.printf("Informe o %d numero: %n", sequence);
     number = scanner.nextInt();
+    scanner.close();
 
     return number;
   }
