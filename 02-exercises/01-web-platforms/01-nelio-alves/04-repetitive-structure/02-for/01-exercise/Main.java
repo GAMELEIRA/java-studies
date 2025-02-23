@@ -8,6 +8,7 @@ public class Main {
     int number = requestValue();
     ArrayList<Integer> odd = getOdd(number);
     showResult(odd);
+    scanner.close();
   }
 
   public static int requestValue() {

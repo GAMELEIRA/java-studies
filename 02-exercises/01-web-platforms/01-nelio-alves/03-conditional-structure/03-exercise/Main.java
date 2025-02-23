@@ -15,7 +15,7 @@ public class Main {
 
     boolean areMultiple = areMultiple(numbers);
     showResult(areMultiple);
-
+    scanner.close();
   }
 
   public static int requestNumber(int sequence) {

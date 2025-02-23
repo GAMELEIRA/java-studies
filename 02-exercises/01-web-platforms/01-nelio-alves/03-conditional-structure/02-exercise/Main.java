@@ -7,6 +7,7 @@ public class Main {
     int number = requestNumber();
     boolean isOdd = isOdd(number);
     showResult(isOdd);
+    scanner.close();
   }  
 
   public static int requestNumber() {

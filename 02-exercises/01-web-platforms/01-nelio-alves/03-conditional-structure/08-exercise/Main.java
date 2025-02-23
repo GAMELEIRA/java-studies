@@ -8,6 +8,7 @@ public class Main {
         double salary = getSalary();
         double taxAmount = getTax(salary);
         showResult(taxAmount);
+        scanner.close();
     }
 
     public static double getSalary() {

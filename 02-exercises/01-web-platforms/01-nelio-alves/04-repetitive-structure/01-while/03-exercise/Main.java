@@ -9,6 +9,7 @@ public class Main {
     HashMap<String, String> products = buildProductsTable();
     HashMap<String, Integer> purchasingTable = getPurchasingTable(products);
     showResult(purchasingTable);
+    scanner.close();
   }
 
   public static HashMap<String, String> buildProductsTable() {

@@ -8,6 +8,7 @@ public class Main {
     int[] numbers = requestNumbers();
     int durationGame = calculateDurationGame(numbers);
     showResult(durationGame);
+    scanner.close();
   }
 
   public static int[] requestNumbers() {

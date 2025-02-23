@@ -10,6 +10,7 @@ public class Main {
     double totalPrice = calculateTotalPrice(request, tablePrice);
 
     showResult(totalPrice);
+    scanner.close();
   }
 
   public static HashMap<String, Double> buildTablePrice() {

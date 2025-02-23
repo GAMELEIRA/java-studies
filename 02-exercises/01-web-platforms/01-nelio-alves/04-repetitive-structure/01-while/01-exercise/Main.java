@@ -17,5 +17,7 @@ public class Main {
         System.out.println("Acesso permitido!");
       }
     } while (password != correctPassword);
+    
+    scanner.close();
   }
 }

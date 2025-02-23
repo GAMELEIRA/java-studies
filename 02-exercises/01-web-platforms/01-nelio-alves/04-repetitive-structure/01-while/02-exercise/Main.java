@@ -10,6 +10,7 @@ public class Main {
     ArrayList<Double> data = getData();
     String coordinates = getCoordinates(data);
     printResult(coordinates);
+    scanner.close();
   }
 
   public static ArrayList<Double> getData() {

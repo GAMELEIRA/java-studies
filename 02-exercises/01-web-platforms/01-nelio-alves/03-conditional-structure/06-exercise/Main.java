@@ -7,6 +7,7 @@ public class Main {
   public static void main(String[] args) {
     double number = requestNumber();
     showInterval(number);
+    scanner.close();
   }
 
   public static double requestNumber() {

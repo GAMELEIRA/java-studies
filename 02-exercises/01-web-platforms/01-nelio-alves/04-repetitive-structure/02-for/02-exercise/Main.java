@@ -12,6 +12,7 @@ public class Main {
     HashMap<String, Integer> result = validateInterval(numbers);
 
     showResult(result);
+    scanner.close();
   }
 
   public static int requestQuantityRepetitions() {
