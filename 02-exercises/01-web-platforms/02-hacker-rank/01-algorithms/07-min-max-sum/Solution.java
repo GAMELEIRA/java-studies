@@ -25,43 +25,32 @@ class Result {
         long minNumber = arr.get(0);
         long sumMaxNumbers = 0L;
         long sumMinNumbers = 0L;
-        
-        for (Integer number: arr) {
-            if (maxNumber < number) {
+
+        for (Integer number : arr) {
+            if (maxNumber <= number) {
                 maxNumber = number;
-            } 
-            
-            if (minNumber > number) {
+            }
+
+            if (minNumber >= number) {
                 minNumber = number;
             }
         }
-        
-        for (int i = 1; i < arr.size(); i++) {
-            if (arr.get(i) < maxNumber) {
-             minNumbers.add((long) arr.get(i));
-            } 
-            
-            if (arr.get(i) > minNumber) {
-             maxNumbers.add((long) arr.get(i));
-            }
-            
-            if (arr.get(i) == minNumber) {
-             minNumbers.add((long) arr.get(i));
-             maxNumbers.add((long) arr.get(i));
-            }
-        
-        for (Long number: maxNumbers) {
+
+        for (int i = 0; i < arr.size(); i++) {
+            minNumbers.add((long) arr.get(i));
+            maxNumbers.add((long) arr.get(i));
+        }
+
+        for (Long number : maxNumbers) {
             sumMaxNumbers += number;
         }
-        
-        for (Long number: minNumbers) {
+
+        for (Long number : minNumbers) {
             sumMinNumbers += number;
         }
 
-        System.out.printf("%d %d", sumMinNumbers, sumMaxNumbers);
+        System.out.printf("%d %d", sumMaxNumbers - maxNumber, sumMinNumbers - minNumber);
     }
-
-}
 }
 
 public class Solution {
@@ -69,8 +58,8 @@ public class Solution {
         BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(System.in));
 
         List<Integer> arr = Stream.of(bufferedReader.readLine().replaceAll("\\s+$", "").split(" "))
-            .map(Integer::parseInt)
-            .collect(toList());
+                .map(Integer::parseInt)
+                .collect(toList());
 
         Result.miniMaxSum(arr);
 
