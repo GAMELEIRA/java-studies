@@ -18,6 +18,6 @@ public class Main {
 
         //DECLARACAO DE VARIAVEL CONSTANTE
         //SEMPRE ESCREVER EM CAIXA ALTA
-        final int PI = 3.14;
+        final double PI = 3.14;
     }
 }
