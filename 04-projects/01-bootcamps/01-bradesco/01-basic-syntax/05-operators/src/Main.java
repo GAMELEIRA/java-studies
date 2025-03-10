@@ -14,5 +14,12 @@ public class Main {
         String firstName = "Gabriel";
         String middleName = "Gameleira";
         String fullName = firstName + " " + middleName;
+
+        //++++++++++++++++++++++++++++++ OPERADORES UNARIOS +++++++++++++++++++++++++++++++++++++
+        int numeroA = 5; //POR PADRAO O OPERADOR PADRAO SERA + POIS SE TRATA DE UM NUMERO POSITIVO
+        int numeroB = -10; //COM O USO DO - TRANSFORMO O VALOR NUMERICO EM NEGATIVO
+        numeroA = numeroA++; //INCREMENTA VALOR EM MAIS UM 
+        numeroB = numeroB++; //DECREMENTA O VALOR EM MENOS UM
+        
     }
 }
