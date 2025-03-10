@@ -35,5 +35,11 @@ public class Main {
         boolean valueE = 100 != 100; //VALIDA DIFERENCA ENTRE VALORES
         boolean valueF = 100 == 100; //VALIDA IGUALDADE ENTRE VALORES
 
+        //+++++++++++++++++++++++++++++ OPERADORES LOGICOS ++++++++++++++++++++++++++++++++++++++
+        //OPERADORES LOGICOS REPRESENTAM O RECURSO QUE NOS PERMITE CRIAR EXPRESSOES LOGICAS MAIORES
+        //A PARTIR DA JUNCAO DE DUAS OU MAIS EXPRESSOES
+        boolean valueH = valueA && valueB; //VALIDA SE AS DUAS CONDICOES SAO VERDADEIRAS
+        boolean valueF = valueC || valueA; //VALIDA SE UMA DAS CONDICOES E VERDADEIRA
+        boolean valueG = !valueA; //INVERTE O VALOR BOOLEANO 
     }
 }
