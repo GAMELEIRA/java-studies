@@ -20,6 +20,11 @@ public class Main {
         int numeroB = -10; //COM O USO DO - TRANSFORMO O VALOR NUMERICO EM NEGATIVO
         numeroA++; //INCREMENTA VALOR EM MAIS UM 
         numeroB++; //DECREMENTA O VALOR EM MENOS UM
+
+        //++++++++++++++++++++++++++++++ OPERADOR TERNARIO ++++++++++++++++++++++++++++++++++++++
+        //OPERADOR TERNARIO E UMA FORMA RESUMIDA DE OBTER UM VALOR BASEADO EM UMA CONDICAO
+        //EXPRESSAO CONDICIONAL ? PRIMEIRO RETORNO CASO SEJA VERDADEIRO: RETORNO CASO SEJA FALSO
+        int numeroC = (numeroA > numeroB)? 100: 0;
         
     }
 }
