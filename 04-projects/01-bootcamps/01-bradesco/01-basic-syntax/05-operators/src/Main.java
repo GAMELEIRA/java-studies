@@ -25,6 +25,15 @@ public class Main {
         //OPERADOR TERNARIO E UMA FORMA RESUMIDA DE OBTER UM VALOR BASEADO EM UMA CONDICAO
         //EXPRESSAO CONDICIONAL ? PRIMEIRO RETORNO CASO SEJA VERDADEIRO: RETORNO CASO SEJA FALSO
         int numeroC = (numeroA > numeroB)? 100: 0;
-        
+
+        //+++++++++++++++++++++++++++++ OPERADOR RELACIONAIS ++++++++++++++++++++++++++++++++++++
+        //OPERADORES RELACIONAIS COMPARAM RELACOES ENTRE VALORES 
+        boolean valueA = 5 > 10; //VALIDA SUPERIORIDADE DE UM VALOR
+        boolean valueB = 10 < 100; //VALIDA INFERIORIDADE DE UM VALOR
+        boolean valueC = 20 >= 10; //VALIDA SUPERIORIDADE E IGUALDADE ENTRE OS VALORES
+        boolean valueD = 10 <= 100; //VALIDA INFERIORIDADE E IGUALDADE ENTRE VALORES
+        boolean valueE = 100 != 100; //VALIDA DIFERENCA ENTRE VALORES
+        boolean valueF = 100 == 100; //VALIDA IGUALDADE ENTRE VALORES
+
     }
 }
