@@ -19,7 +19,7 @@ public class App {
             System.out.println("Nao foi possivel ler o numero informado");
             // finally EXECUTA UM BLOCO DE CODIGO APOS A CONCLUSAO DO BLOCO try ou catch
         } finally {
-            System.out.println("FINALIZANDO O PROGRAMA");
+            System.err.println("FINALIZANDO O PROGRAMA");
         }
 
         scanner.close();
