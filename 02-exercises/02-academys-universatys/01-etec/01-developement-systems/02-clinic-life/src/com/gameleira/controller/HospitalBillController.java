@@ -3,6 +3,14 @@ package com.gameleira.controller;
 import com.gameleira.model.HospitalBill;
 import com.gameleira.view.HospitalBillView;
 
+/**
+ * <h1>Controlador do Contrato</h1>
+ * Classe responsável por gerenciar a interação entre a visão e o modelo da despesa do hospital.
+ * 
+ * @author GABRIEL GAMELEIRA DOS SANTOS
+ * @version 1.0
+ * @since 24/03/2025
+ */
 public class HospitalBillController {
 	
 	private HospitalBill hospitalBill;

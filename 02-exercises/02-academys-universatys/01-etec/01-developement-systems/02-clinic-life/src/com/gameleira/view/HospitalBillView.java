@@ -6,6 +6,15 @@ import com.gameleira.model.HospitalBill;
 import com.gameleira.model.Hospitalization;
 import com.gameleira.model.Patient;
 
+/**
+ * <h1>Visão do Contrato</h1>
+ * Classe responsável por interagir com o usuário e coletar dados sobre a conta do hospital.
+ * Utiliza JOptionPane para entrada e saída de dados.
+ * 
+ * @author GABRIEL GAMELEIRA DOS SANTOS
+ * @version 1.0
+ * @since 24/03/2025
+ */
 public class HospitalBillView {
 		
 	public HospitalBillView() {}
