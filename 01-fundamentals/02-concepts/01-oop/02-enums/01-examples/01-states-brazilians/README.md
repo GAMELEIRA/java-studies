@@ -95,10 +95,4 @@ Este projeto é licenciado sob a licença MIT. Consulte o arquivo `LICENSE` para
 
 ## Status do Projeto
 
-O projeto está em desenvolvimento contínuo, com planos para futuras melhorias, incluindo:
-
-- Implementação de testes unitários.
-- Melhorias na exibição de dados via interface gráfica.
-- Integração com APIs externas para obtenção de informações sobre estados brasileiros.
-
-Acompanhe as atualizações e contribua para o aprimoramento do sistema!
+O projeto está finalizado por hora.
