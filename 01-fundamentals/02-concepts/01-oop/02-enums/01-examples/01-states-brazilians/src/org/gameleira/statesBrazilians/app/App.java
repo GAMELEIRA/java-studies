@@ -1,6 +1,6 @@
 package org.gameleira.statesBrazilians.app;
 
-import org.gameleira.statesBrazilians.model.*;
+import org.gameleira.statesBrazilians.enums.*;
 
 public class App {
 

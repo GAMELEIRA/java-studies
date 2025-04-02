@@ -1,4 +1,4 @@
-package org.gameleira.statesBrazilians.model;
+package org.gameleira.statesBrazilians.enums;
 
 /**
  * ENUM QUE REPRESENTA OS ESTADOS BRASILEIROS.
