@@ -6,7 +6,5 @@ public class BankSlip extends Payment {
 	public void processPayment(double value) {
 		System.out.printf("Boleto gerado no valor de %.2f\n", value);
 	}
-
-	
 	
 }
