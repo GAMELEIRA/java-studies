@@ -1,8 +1,9 @@
 # Estudos Backend
 
-Este repositório foi criado por mim com o objetivo de construir uma base sólida em desenvolvimento backend. Aqui, armazenarei os conhecimentos adquiridos, abrangendo todos os aspectos necessários para o desenvolvimento de soluções eficientes e modernas nessa área desde o básico até o avançado. Usarei como base para essa jornada como guia a trilha desenvolvida pela [comunidade](https://github.com/arthurspk/guiadobackend):
+Este repositório foi criado por mim com o objetivo de construir uma base sólida em desenvolvimento com as tecnologias Java. Aqui, armazenarei os conhecimentos adquiridos, abrangendo todos os aspectos necessários para o desenvolvimento de soluções eficientes e modernas nessa área desde o básico até o avançado. Usarei como base para essa jornada como guia a trilha desenvolvida pela comunidade para desenvolvimento [backend](https://github.com/arthurspk/guiadobackend) e [java](https://roadmap.sh/java?fl=0):
 
-![Mapa Mental Frontend](./assets/images/backend-roadmap.png)
+![Mapa Mental Java](./assets/images/java-roadmap.jpg)
+![Mapa Mental Backend](./assets/images/backend-roadmap.png)
 
 # Sumário
 
