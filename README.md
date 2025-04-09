@@ -58,4 +58,4 @@ Gostaria de expressar minha gratidão a todos que contribuíram para a construç
 
 O projeto está **ativo** e em constante **desenvolvimento**!
 
-Essa repositório começou em **20 de junho de 2024** com o objetivo de desenvolver um conhecimento sólido sobre as tecnologias essenciais e principios para o desenvolvimento frontend. Planejo alcançar essa meta até **31 de dezembro de 2034**. Para isso realizarei estudos em plataformas web, cursos e graduações presenciais e a distancia para construir esse projeto.
+Essa repositório começou em **20 de junho de 2024** com o objetivo de desenvolver um conhecimento sólido sobre as tecnologias essenciais e principios para o desenvolvimento de aplicações com Java. Planejo alcançar essa meta até **31 de dezembro de 2034**. Para isso realizarei estudos em plataformas web, cursos e graduações presenciais e a distancia para construir esse projeto.
