@@ -1,6 +1,6 @@
 package org.gameleira.models;
 
-public class Course {
+public final class Course {
 	
 	//NAO PODE SER ALTERADO DEPOIS DE INICIALIZADO
 	public final String name; 
