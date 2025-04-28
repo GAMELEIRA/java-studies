@@ -9,10 +9,12 @@ public class App {
 		Document passport = new Passport();
 	    Document idCard = new IdentityCard();
 	    Document driverLicense = new DriverLicense();
+	    Document specialIdentityCard = new SpecialIdentityCard();
 
 	    passport.validateDocument();
 	    idCard.validateDocument();
 	    driverLicense.validateDocument();
+	    specialIdentityCard.validateDocument();
 	    
 	}
 
