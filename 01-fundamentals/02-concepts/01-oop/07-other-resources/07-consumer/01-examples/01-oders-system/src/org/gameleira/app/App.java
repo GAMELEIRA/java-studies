@@ -16,6 +16,9 @@ public class App {
 	}
 	
 	public static void processOrders(ArrayList<Order> orders) {
+		//Consumers E UMA FUNCTION INTERFACE QUE PERMITE DECLARAR FUNCOES EM VARIAVEIS
+		//QUE REPRESENTA UMA OPERACAO QUE ACEITA UM UNICO ARGUMENTO E NAO RETORNA RESULTADO
+		//SERVE PARA PASSAR COMPORTAMENTOS COMO ARGUMENTO PARA METODOS
 		Consumer<Order> consumerOrders = order -> System.out.println(order.toString());
 		orders.forEach(consumerOrders);
 	}
