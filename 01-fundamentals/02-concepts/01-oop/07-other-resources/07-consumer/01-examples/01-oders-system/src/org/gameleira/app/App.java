@@ -16,7 +16,7 @@ public class App {
 	}
 	
 	public static void processOrders(ArrayList<Order> orders) {
-		// Consumer É UMA FUNCTIONAL INTERFACE QUE REPRESENTA UMA OPERAÇÃO QUE RECEBE UM ÚNICO ARGUMENTO E NÃO RETORNA RESULTADO.
+		// Consumer É UMA FUNCTIONAL INTERFACE QUE REPRESENTA UMA OPERAÇÃO QUE RECEBE UM ÚNICO ARGUMENTO E NÃO RETORNA RESULTADO
 		// É UTILIZADA PARA DECLARAR FUNÇÕES EM VARIÁVEIS OU PASSAR COMPORTAMENTOS COMO ARGUMENTO PARA MÉTODOS.
 		Consumer<Order> consumerOrders = order -> System.out.println(order.toString());
 		orders.forEach(consumerOrders);
