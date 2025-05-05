@@ -23,6 +23,7 @@ public class App {
 		products.add(product4);
 		products.add(product5);
 		products.add(product6);
+		products.add(product7);
 		
 		filterCheapsEletronics(products);
 
